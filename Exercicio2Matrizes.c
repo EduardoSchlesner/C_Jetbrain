@@ -37,7 +37,6 @@ void funcAtletas(){
 
     printf("O maior atleta da delegação %s tem %d cm!\n",deleg[0], aux1);
     printf("O maior atleta da delegação %s tem %d cm!\n",deleg[1], aux2);
-
 }
 
 int main(){
