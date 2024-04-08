@@ -1,4 +1,21 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S "/Users/eduardoschlesner/Desktop/C JetBrain" -B "/Users/eduardoschlesner/Desktop/C JetBrain/cmake-build-debug"
 -- Configuring done (0.0s)
--- Generating done (0.0s)
--- Build files have been written to: /Users/eduardoschlesner/Desktop/C JetBrain/cmake-build-debug
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    main.c
+
+
+CMake Error at CMakeLists.txt:6 (add_executable):
+  No SOURCES given to target: C_JetBrain
+
+
+CMake Error at CMakeLists.txt:8 (add_executable):
+  No SOURCES given to target: exerciciostestando.c
+
+
+CMake Error at CMakeLists.txt:9 (add_executable):
+  No SOURCES given to target: exeercicios2.c
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
