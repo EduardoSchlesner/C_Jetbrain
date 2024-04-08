@@ -1,0 +1,3 @@
+/Users/eduardoschlesner/Desktop/C JetBrain/cmake-build-debug/CMakeFiles/C_JetBrain.dir
+/Users/eduardoschlesner/Desktop/C JetBrain/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/eduardoschlesner/Desktop/C JetBrain/cmake-build-debug/CMakeFiles/rebuild_cache.dir
