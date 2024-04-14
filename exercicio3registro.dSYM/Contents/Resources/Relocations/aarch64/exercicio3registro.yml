@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     exercicio3registro
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _maiorValorMes, symObjAddr: 0x0, symBinAddr: 0x100003B5C, symSize: 0xD4 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _maiorValorMes, symObjAddr: 0x0, symBinAddr: 0x100003B5C, symSize: 0xD4 }
+  - { offsetInCU: 0xB7, offset: 0xB7, size: 0x8, addend: 0x0, symName: _lendo, symObjAddr: 0xD4, symBinAddr: 0x100003C30, symSize: 0x188 }
+  - { offsetInCU: 0x14F, offset: 0x14F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x25C, symBinAddr: 0x100003DB8, symSize: 0xD0 }
+...
