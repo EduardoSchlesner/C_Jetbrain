@@ -32,7 +32,7 @@ int main(){
     return 0;
 }*/
 
- //Como alocar um vetor dinamico:
+ /*//Como alocar um vetor dinamico:
  int main(){
 
      int tam, *vet; //sempre um ponteiro para vetor!
@@ -58,4 +58,47 @@ int main(){
      }
 
     return 0;
+ }*/
+
+
+ //Funcao REALLOC e FREE:
+ // retorna um ponteiro para a nova regiao de memoria!
+
+
+ int main(){
+
+     int tam, *vet; //sempre um ponteiro para vetor!
+
+     printf("Digite o tamanho do vetor: ");
+     scanf("%d", &tam);
+     srand(time(NULL));
+
+     vet = malloc(tam * sizeof(int));
+
+     if (vet){
+         printf("Memoria alocada com sucesso!\n");
+         for (int i = 0; i < tam; ++i) {
+             *(vet+i) = rand() % 100; //coloca numeros aleatorios dentro do vetor
+         }
+         for (int i = 0; i < tam; ++i) {
+             printf("%d ", *(vet+i));
+         }
+         printf("\n");
+
+         printf("Digite o novo tamanho do vetor: ");
+         scanf("%d", &tam);
+
+         vet = realloc(vet, tam);
+
+         printf("\nVetor realocado: \n");
+         for (int i = 0; i < tam; ++i) {
+             printf("%d ", *(vet+i));
+         }
+         free(vet);
+     }
+     else{
+         printf("Erro!");
+     }
+
+     return 0;
  }
